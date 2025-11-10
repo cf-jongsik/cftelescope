@@ -1,7 +1,7 @@
 /*
 Copyright © 2025 jongsik <jongsik@cloudflare.com>
 */
-package ruleset
+package zruleset
 
 import (
 	"context"

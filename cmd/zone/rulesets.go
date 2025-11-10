@@ -4,7 +4,7 @@ Copyright © 2025 jongsik <jongsik@cloudflare.com>
 package zone
 
 import (
-	"cftelescope/cmd/zone/ruleset"
+	zruleset "cftelescope/cmd/zone/ruleset"
 	"context"
 	"fmt"
 	"log"
@@ -67,6 +67,6 @@ func init() {
 
 	RulesetsCmd.AddCommand(RulesetsListCmd)
 	RulesetsCmd.AddCommand(RulesetsGetCmd)
-	RulesetsCmd.AddCommand(ruleset.ManagedCmd)
-	RulesetsCmd.AddCommand(ruleset.CustomCmd)
+	RulesetsCmd.AddCommand(zruleset.ManagedCmd)
+	RulesetsCmd.AddCommand(zruleset.CustomCmd)
 }

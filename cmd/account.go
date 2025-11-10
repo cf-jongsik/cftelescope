@@ -65,5 +65,5 @@ func init() {
 	accountCmd.AddCommand(account.LogsControlCmbConfigGetCmd)
 	accountCmd.AddCommand(account.RUMsCmd)
 	accountCmd.AddCommand(account.StreamCmd)
-
+	accountCmd.AddCommand((account.RulesetsCmd))
 }
